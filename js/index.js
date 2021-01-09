@@ -4,7 +4,7 @@ function First() {
     userId = document.getElementById("exampleInputEmail1").value;
     userPass = document.getElementById("exampleInputPassword1").value;
     if (userId === checkUser && userPass === checkPass) {
-            location.href = "";
+            location.href = "https://www.youtube.com/";
     } else {
         document.getElementById("validate").style.display = "block";
     }
