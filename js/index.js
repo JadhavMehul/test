@@ -6,9 +6,9 @@ function SrKg() {
     userId = document.getElementById("exampleInputEmail1").value;
     userPass = document.getElementById("exampleInputPassword1").value;
     if (userId === checkUser && userPass === checkPass) {
-        location.href = "";
+        location.href = "https://forms.gle/Dt3MqDp7YnCyz4S77";
     } else if(userId === checkUser1 && userPass === checkPass1) {
-        location.href = "";
+        location.href = "https://forms.gle/Dt3MqDp7YnCyz4S77";
     } else {
         document.getElementById("validate").style.display = "block";
     }
@@ -20,7 +20,7 @@ function First() {
     userId = document.getElementById("exampleInputEmail1").value;
     userPass = document.getElementById("exampleInputPassword1").value;
     if (userId === checkUser && userPass === checkPass) {
-            location.href = "https://www.youtube.com/";
+            location.href = "";
     } else {
         document.getElementById("validate").style.display = "block";
     }
