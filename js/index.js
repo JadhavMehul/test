@@ -29,10 +29,14 @@ function First() {
 function Second() {
     checkUser = "arohi";
     checkPass = "aro1679";
+    checkUser1 = "liaba";
+    checkPass1 = "lia1789";
     userId = document.getElementById("exampleInputEmail1").value;
     userPass = document.getElementById("exampleInputPassword1").value;
     if (userId === checkUser && userPass === checkPass) {
-            location.href = "";
+        location.href = "";
+    } else if(userId === checkUser1 && userPass === checkPass1) {
+        location.href = "";
     } else {
         document.getElementById("validate").style.display = "block";
     }
@@ -54,6 +58,17 @@ function Third() {
     }
 }
 
+function Fourth() {
+    checkUser = "yuvraj";
+    checkPass = "yuv1289"
+    userId = document.getElementById("exampleInputEmail1").value;
+    userPass = document.getElementById("exampleInputPassword1").value;
+    if (userId === checkUser && userPass === checkPass) {
+            location.href = "";
+    } else {
+        document.getElementById("validate").style.display = "block";
+    }
+}
 
 function Fifth() {
     checkUser = "eshwari";
