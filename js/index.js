@@ -1,6 +1,22 @@
+function SrKg() {
+    checkUser = "arohi";
+    checkPass = "aro1459";
+    checkUser1 = "durva";
+    checkPass1 = "dur1234";
+    userId = document.getElementById("exampleInputEmail1").value;
+    userPass = document.getElementById("exampleInputPassword1").value;
+    if (userId === checkUser && userPass === checkPass) {
+        location.href = "";
+    } else if(userId === checkUser1 && userPass === checkPass1) {
+        location.href = "";
+    } else {
+        document.getElementById("validate").style.display = "block";
+    }
+}
+
 function First() {
     checkUser = "aroshi";
-    checkPass = "aro1569"
+    checkPass = "aro1569";
     userId = document.getElementById("exampleInputEmail1").value;
     userPass = document.getElementById("exampleInputPassword1").value;
     if (userId === checkUser && userPass === checkPass) {
