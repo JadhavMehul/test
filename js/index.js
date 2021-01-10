@@ -6,9 +6,9 @@ function SrKg() {
     userId = document.getElementById("exampleInputEmail1").value;
     userPass = document.getElementById("exampleInputPassword1").value;
     if (userId === checkUser && userPass === checkPass) {
-        location.href = "https://forms.gle/Dt3MqDp7YnCyz4S77";
+        location.href = "../paper/paperSrKg.html";
     } else if(userId === checkUser1 && userPass === checkPass1) {
-        location.href = "https://forms.gle/Dt3MqDp7YnCyz4S77";
+        location.href = "";
     } else {
         document.getElementById("validate").style.display = "block";
     }
